@@ -1,0 +1,16 @@
+name: Lobby
+version: '1.0-alpha'
+main: fr.ixsou.lobby.Lobby
+api-version: '1.21'
+authors: [ Ixsou_mod ]
+commands:
+  setlobby:
+    description: Place le point de spawn du lobby
+    usage: /setlobby
+  lobby:
+    description: Téléporte au point de spawn du lobby
+    usage: /lobby
+  lobbyadmin:
+    description: Commande admin pour le lobby
+    usage: /lobbyadmin
+    aliases: [ la ]

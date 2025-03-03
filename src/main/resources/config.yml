@@ -1,0 +1,47 @@
+#Merci d'avoir téléchargé Lobby! N'hésitez pas a laisser votre avis sur le site du téléchargement !
+#Youtube: Ixsou_mod
+#Code "IXSOU" minestrator.com (-10%)
+
+
+messages:
+  #message d'activation du plugin dans la console
+  plugin-enable: "&aLe plugin &bLobby &aest bien activé"
+  #message de désactivation du plugin dans la console
+  plugin-disable: "&cLe plugin &bLobby &cest bien désactivé"
+
+  #message de rappel que les joueurs sont les seuls a pouvoir executer cette la commande dans la console
+  console-only-player: "&cSeuls les joueurs peuvent exécuter cette commande !"
+
+  #message de reload de la config
+  config-reload: "&aLe fichier de configuration a bien été rechargé"
+
+  #message dans la config introuvable
+  no-found-message: "&cMessage introuvable !"
+  #message de rappel que le joueur n'a pas la permission d'executer la commande
+  no-permission: "&cVous n'avez pas la permission d'utiliser cette commande !"
+  #message de rappel que le lobby n'est pas encore set
+  no-lobby-set: "&cLe point de spawn n'a pas été correctement défini !"
+
+  #message de mauvaise utilisation de la commande
+  wrong-command-usage: "&cMauvaise utilisation de la commande &8(fait /lobbyadmin help) pour voir les commandes"
+
+  #message de rappel que le monde n'est pas dans la config
+  world-not-found: "&cLe monde %world% n'a pas été trouvé dans la config"
+
+  #message de confirmation du placement du lobby
+  lobby-set: "&aLe point de lobby a été pacé"
+
+  #message & activation/désactivation du message de téléportation
+  teleport-message:
+    enable: true #true (actif), false (inactif)
+    #message de téléportation au lobby
+    message: "&aVous avez été téléporté au lobby !"
+
+  #message dans le tchat pour l'aide
+  help:
+    header: "&6========= &bAide Lobby &6========="
+    1: "&b/setlobby"
+    2: "&b/lobby"
+    3: "&b/lobbyadmin reload"
+    footer: "&6=================================="
+#coordonnée & monde du lobby
